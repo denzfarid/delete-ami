@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -e 
 
 # source : https://gist.github.com/ashb/c59152abc941bd3658da
 # used : chmox +x unused-ami.sh; ./unused-ami.sh > ami-id
