@@ -1,0 +1,29 @@
+How To use : 
+-----------
+
+1 .  Configure profile & credentials in .aws
+2 .  Scan ami-id with file unused-ami.sh
+3 .  Configure parameters in delete-ami.sh with region and profile
+
+Configure profile & credentials
+===============================
+
+* Create folder .aws [config vars](<http://docs.aws.amazon.com/cli/latest/topic/config-vars.html)
+    mkdir ~/.aws;
+* Create file config
+    vim ~/.aws/config
+
+paste this
+
+    [profile NAME]
+    output = json
+    region = <REGION>
+    aws_access_key_id = <ACCESS KEY ID>
+    aws_secret_access_key = <SECRET ACCESS KEY> 
+
+* Configure Parameters
+
+    find variable and change with your profile NAME
+
+    profile=''
+    profile='profile NAME'
