@@ -8,7 +8,7 @@ How To use :
 Configure profile & credentials
 ===============================
 
-* Create folder .aws [config vars](<http://docs.aws.amazon.com/cli/latest/topic/config-vars.html)
+* Create folder .aws <http://docs.aws.amazon.com/cli/latest/topic/config-vars.html>
     mkdir ~/.aws;
 * Create file config
     vim ~/.aws/config
