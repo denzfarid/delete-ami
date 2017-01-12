@@ -7,13 +7,19 @@ How To use :
 
 Configure profile & credentials
 ===============================
+<http://docs.aws.amazon.com/cli/latest/topic/config-vars.html>
 
-* Create folder .aws <http://docs.aws.amazon.com/cli/latest/topic/config-vars.html>
+* Create folder .aws 
     mkdir ~/.aws;
 * Create file config
     vim ~/.aws/config
 
-paste this
+ACCESS KEY ID & SECRET ACCESS KEY
+=================================
+<https://aws.amazon.com/developers/access-keys/>
+<http://docs.aws.amazon.com/cli/latest/userguide/cli-chap-getting-set-up.html>
+
+paste this 
 
     [profile NAME]
     output = json
